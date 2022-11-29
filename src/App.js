@@ -171,14 +171,14 @@ function App() {
     function Button({ name, onClick }) {
       if (sorted === '' && name === "Popularity") {
         return (
-        <button class="remove" onClick={event => mySort(event, name)}>
+        <button class="removesort" onClick={event => mySort(event, name)}>
           <p>{name}</p>
         </button>
         ) 
       }
       if (sorted === name) {
         return (
-        <button class="remove" onClick={event => mySort(event, name)}>
+        <button class="removesort" onClick={event => mySort(event, name)}>
           <p>{name}</p>
         </button>
       )
@@ -297,32 +297,32 @@ function App() {
             <h2>Filter Options</h2>
           </div>
         <h4>Sort By</h4>
-          {/* <Button name="Popularity" onClick={mySort}/>
+          <Button name="Popularity" onClick={mySort}/>
           <Button name="Price" onClick={mySort}/>
-          <Button name="Calories" onClick={mySort}/> */}
-           <input type="checkbox" checked={sorted === "Popularity" || sorted === ""} id="Popularity" onClick={event => mySort(event, "Popularity")} /><label for="Popularity">Popularity</label>
+          <Button name="Calories" onClick={mySort}/>
+           {/* <input type="checkbox" checked={sorted === "Popularity" || sorted === ""} id="Popularity" onClick={event => mySort(event, "Popularity")} /><label for="Popularity">Popularity</label>
           <br></br>
            <input type="checkbox" checked={sorted === "Price"} id="Price" onClick={event => mySort(event, "Price")} /><label for="Price">Price</label>
           <br></br>
-           <input type="checkbox" checked={sorted === "Calories"} id="Calories" onClick={event => mySort(event, "Calories")} /><label for="Calories">Calories</label>
+           <input type="checkbox" checked={sorted === "Calories"} id="Calories" onClick={event => mySort(event, "Calories")} /><label for="Calories">Calories</label> */}
         <h4>Type</h4>
-          {/* <ButtonType name="Pastry" onClick={myfilter}/>
+          <ButtonType name="Pastry" onClick={myfilter}/>
           <ButtonType name="Bread" onClick={myfilter}/>
-          <ButtonType name="Cake" onClick={myfilter}/> */}
-           <input type="checkbox" checked={filters.includes("Pastry")} id="Pastry" onClick={event => myfilter(event, "Pastry")} /><label for="Pastry">Pastry</label>
+          <ButtonType name="Cake" onClick={myfilter}/>
+           {/* <input type="checkbox" checked={filters.includes("Pastry")} id="Pastry" onClick={event => myfilter(event, "Pastry")} /><label for="Pastry">Pastry</label>
           <br></br>
           <input type="checkbox" checked={filters.includes("Bread")} id="Bread" onClick={event => myfilter(event, "Bread")} /><label for="Bread">Bread</label>
           <br></br>
-          <input type="checkbox" checked={filters.includes("Cake")} id="Cake" onClick={event => myfilter(event, "Cake")} /><label for="Cake">Cake</label>
+          <input type="checkbox" checked={filters.includes("Cake")} id="Cake" onClick={event => myfilter(event, "Cake")} /><label for="Cake">Cake</label> */}
         <h4>Dietary</h4>
-          {/* <ButtonDiet name="Gluten-Free" onClick={myfilterDiet}/> */}
-          {/* <ButtonDiet name="Dairy-Free" onClick={myfilterDiet}/> */}
-          {/* <ButtonDiet name="Nut-Free" onClick={myfilterDiet}/> */}
-          <input type="checkbox" checked={filtersDiet.includes("Gluten-Free")} id="gluten" onClick={event => myfilterDiet(event, "Gluten-Free")} /><label for="gluten">Gluten-Free</label>
+          <ButtonDiet name="Gluten-Free" onClick={myfilterDiet}/>
+          <ButtonDiet name="Dairy-Free" onClick={myfilterDiet}/>
+          <ButtonDiet name="Nut-Free" onClick={myfilterDiet}/>
+          {/* <input type="checkbox" checked={filtersDiet.includes("Gluten-Free")} id="gluten" onClick={event => myfilterDiet(event, "Gluten-Free")} /><label for="gluten">Gluten-Free</label>
           <br></br>
           <input type="checkbox" checked={filtersDiet.includes("Dairy-Free")} id="dairy" onClick={event => myfilterDiet(event, "Dairy-Free")} /><label for="dairy">Dairy-Free</label>
           <br></br>
-          <input type="checkbox" checked={filtersDiet.includes("Nut-Free")} id="nut" onClick={event => myfilterDiet(event, "Nut-Free")} /><label for="nut">Nut-Free</label>
+          <input type="checkbox" checked={filtersDiet.includes("Nut-Free")} id="nut" onClick={event => myfilterDiet(event, "Nut-Free")} /><label for="nut">Nut-Free</label> */}
         <h4>Other</h4>
           <ButtonFavs name="Favorite" onClick={myFavorites}/>
           <ButtonDel name="Reset" onClick={myReset}/>
