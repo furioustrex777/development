@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Chocolate Chip Cookies",
+    "description": "Four classic chocolate chip cookies",
+    "price": 7.99,
+    "image": "images/cookie.jpeg",
+    "cals": 800,
+    "type": "Pastry",
+    "dietary": "Gluten-Free"
+  },
+  {
+    "name": "Matcha Mille Crepe Cake",
+    "description": "Layers of matcha crepe and matcha cream filling, topped with strawberries",
+    "price": 4.99,
+    "image": "images/matchacrepe.webp",
+    "cals": 1800,
+    "type": "Cake",
+    "dietary": "Gluten-Free, Nut-Free"
+  },
+  {
+    "name": "Egg Custard Bun",
+    "description": "A fluffy steamed bun with a savory egg filling",
+    "price": 2.99,
+    "image": "images/eggcustardbun.jpeg",
+    "cals": 800,
+    "type": "Pastry",
+    "dietary": "Gluten-Free, Nut-Free"
+  },
+  {
+    "name": "Steamed Taro Buns",
+    "description": "Two soft steamed buns filled with gooey purple taro filling",
+    "price": 5.99,
+    "image": "images/tarobun.jpeg",
+    "cals": 1100,
+    "type": "Pastry",
+    "dietary": "Gluten-Free, Nut-Free"
+  },
+  {
+    "name": "Chocolate Fudge Brownie",
+    "description": "A rich fudge brownie drizzled with chocolate ganache",
+    "price": 3.99,
+    "image": "images/brownie.jpeg",
+    "cals": 2200,
+    "type": "Pastry",
+    "dietary": "Gluten-Free, Nut-Free"
+  },
+  {
+    "name": "Macarons",
+    "description": "A box of three macarons in assorted flavors",
+    "price": 4.99,
+    "image": "images/macaron.jpeg",
+    "cals": 700,
+    "type": "Pastry",
+    "dietary": "Gluten-Free"
+  },
+  {
+    "name": "Multigrain Bread",
+    "description": "A loaf of fresh-baked multigrain bread",
+    "price": 4.99,
+    "image": "images/multi.webp",
+    "cals": 2500,
+    "type": "Bread",
+    "dietary": "Nut-Free"
+  },
+  {
+    "name": "Croissant",
+    "description": "A classic butter croissant with a flaky crust",
+    "price": 2.99,
+    "image": "images/Croissant.jpeg",
+    "cals": 900,
+    "type": "Pastry, Bread",
+    "dietary": "Nut-Free"
+  },
+  {
+    "name": "Toast with Butter",
+    "description": "A slice of toast with a pat of butter",
+    "price": 1.99,
+    "image": "images/toast.webp",
+    "cals": 2400,
+    "type": "Bread",
+    "dietary": "Nut-Free"
+  },
+  {
+    "name": "Tiramisu",
+    "description": "A classic tiramisu with layers of coffee-soaked ladyfingers and mascarpone cream",
+    "price": 3.99,
+    "image": "images/Tiramisu.jpeg",
+    "cals": 1750,
+    "type": "Cake",
+    "dietary": "Nut-Free"
+  },
+  {
+    "name": "Egg Tart",
+    "description": "A flaky pastry shell filled with a sweet egg custard",
+    "price": 2.99,
+    "image": "images/eggtart.jpeg",
+    "cals": 600,
+    "type": "Pastry",
+    "dietary": "None"
+  },
+  {
+    "name": "Everything Bagel",
+    "description": "A toasted bagel with sesame seeds, poppy seeds, and dried onion",
+    "price": 2.99,
+    "image": "images/everything.webp",
+    "cals": 1000,
+    "type": "Bread",
+    "dietary": "Nut-Free, Dairy-Free"
+  },
+  {
+    "name": "Gingerbread Man",
+    "description": "A soft gingerbread cookie with a sweet icing glaze",
+    "price": 2.99,
+    "image": "images/gingerbreadman.webp",
+    "cals": 1300,
+    "type": "Pastry",
+    "dietary": "None"
+  },
+  {
+    "name": "Cheesecake",
+    "description": "A slice of classic New York cheesecake topped with strawberry",
+    "price": 3.99,
+    "image": "images/cheesecake.jpeg",
+    "cals": 1500,
+    "type": "Cake",
+    "dietary": "Nut-Free"
+  },
+  {
+    "name": "Cream Puff",
+    "description": "Light and airy pâte à choux filled with sweet whipped cream",
+    "price": 2.99,
+    "image": "images/creampuff.jpeg",
+    "cals": 600,
+    "type": "Pastry",
+    "dietary": "Nut-Free"
+  }
+]
