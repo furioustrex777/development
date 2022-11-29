@@ -324,7 +324,7 @@ function App() {
           <br></br>
           <input type="checkbox" checked={filtersDiet.includes("Nut-Free")} id="nut" onClick={event => myfilterDiet(event, "Nut-Free")} /><label for="nut">Nut-Free</label> */}
         <h4>Other</h4>
-          <ButtonFavs name="Favorite" onClick={myFavorites}/>
+          <ButtonFavs name="Favorites" onClick={myFavorites}/>
           <ButtonDel name="Reset" onClick={myReset}/>
         </div>
         <div className="Menu">
