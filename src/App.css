@@ -1,38 +1,191 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 0, 4rem, 0, 4rem;
+}
+
+.descimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  max-width: 550px;
+  padding: 0;
+}
+
+.desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 550px;
+  min-width: 450px;
+  padding: 0;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 50px;
+  color: rgb(187, 166, 187);
+}
+
+label {
+  font-style: italic;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+h4, h3 {
+  margin: 10px;
+}
+
+h6 {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  font-size: .8rem;
+}
+
+.Cart {
+  position: sticky;
+  top: 140px;
+  left: 100px;
+  height: auto;
+  width: 35.3rem;
+  /* height: 80vh; */
+  height: 60vh;
+  color: rgb(90, 90, 0);
+  background-color: lavender;
+  padding: 30px;
+  padding-top: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.Menu {
+  left: 140px;
+  margin-left: 100px;
+}
+
+.Body {
+  display: flex;
+  justify-content: left;
+}
+
+button {
+  background-color: thistle;
+  border: none;
+  border-radius: 8px;
   color: white;
+  margin: 6px;
+  width: 270px !important;
+  height: 78px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.removefav {
+  background-color: rgb(117, 93, 117);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin: 6px;
+  width: 270px !important;
+  height: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.remove {
+  background-color: rgb(117, 93, 117);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin: 6px;
+  width: 270px !important;
+  height: 78px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.Header {
+  position: sticky;
+  top: 0px;
+  padding-top: 1rem;
+  text-align: center;
+  background-color: white;
+}
+
+.Item {
+  min-width:900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lavenderblush;
+  margin: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
+.Deets {
+  flex: 2;
+  color: rgb(90, 90, 0);
+}
+
+.Total {
+  font-size: 22px;
+}
+
+.CartHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+input[type=checkbox] {
+  position: relative;
+  cursor: pointer;
+}
+
+input[type=checkbox]:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background-color:#ffffff;
+}
+
+input[type=checkbox]:checked:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background-color:#1E80EF;
+}
+
+input[type=checkbox]:checked:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 2px;
+  left: 6px;
 }
