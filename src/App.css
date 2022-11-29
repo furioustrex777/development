@@ -86,6 +86,8 @@ button {
 
 }
 
+/* Hover CSS from https://codepen.io/seme332/pen/reJOwo */
+
 button:hover {
   background-color: rgb(154, 123, 154);
   box-shadow: 0px 15px 20px rgba(83, 34, 88, 0.4);
