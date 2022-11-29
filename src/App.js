@@ -230,7 +230,7 @@ function App() {
         <button class="remove" onClick={event => mySort(event, sorted, true)}>
           <p>{name} 
           <br></br>
-          <h6>Favorite Prices: ${total}</h6>
+          <h6>Favorites Price: ${total}</h6>
           </p>
         </button>
       )
@@ -239,7 +239,7 @@ function App() {
         <button onClick={myFavorites}>
           <p>{name}
           <br></br>
-          <h6>Favorite Prices: ${total}</h6>
+          <h6>Favorites Price: ${total}</h6>
           </p>
         </button>
       );
