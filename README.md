@@ -36,7 +36,7 @@ https://furioustrex777.github.io/development/
 
 *********************************************************************************************************************************************
 
-For this implementation, I only had one component, a BakeryItem component, that holds the information of the bakery item. This includes
+For this implementation, I only had one component, a BakeryItem component, that holds and displays the information of the bakery item. This includes
 the image, name, description, price, calories, dietary-restrictions, and the type of the bakery item. 
 
 The main props that were used consisted of the items themselves, in order to use the information stored in them. They were passed into the 
